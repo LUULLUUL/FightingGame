@@ -19,7 +19,7 @@ def perform
 
     puts "Passons à la phase d'attaque : "
     p1.attacks(p2)
-    p2.attacks(p1) if p2.life_points > 0
+    p2.attacks(p1)
     puts
     count += 1
   end
